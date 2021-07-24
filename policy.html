@@ -1,0 +1,223 @@
+<!--
+Licensed to the Apache Software Foundation (ASF) under one or more
+contributor license agreements.  See the NOTICE file distributed with
+this work for additional information regarding copyright ownership.
+The ASF licenses this file to You under the Apache License, Version 2.0
+(the "License"); you may not use this file except in compliance with
+the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<!DOCTYPE html>
+<!--
+       \,,,/
+       (o o)
+  -oOOo-(3)-oOOo-
+-->
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Apache TinkerPop</title>
+      <meta name="description" content="Apache TinkerPop: A Graph Computing Framework">
+      <meta name="author" content="Apache TinkerPop">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+      <script src="js/bootstrap-3.3.5.min.js" type="text/javascript"></script>
+      <link href="css/carousel.css" rel="stylesheet" type="text/css">
+      <link href="css/prism.css" rel="stylesheet" type="text/css"/>
+      <link href="css/bootstrap-mods.css" rel="stylesheet" type="text/css"/>
+      <!-- Le fav and touch icons -->
+      <link rel="shortcut icon" href="img/favicon.ico">
+      <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+   </head>
+   <body>
+      <script src="js/prism.js"></script>     
+      <!---------------->
+      <!---------------->
+      <!---------------->
+      <!-- NAVIGATION -->
+      <!---------------->
+      <!---------------->
+      <!---------------->      
+      <nav class="navbar" role="navigation">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+               data-target="#navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://tinkerpop.apache.org">
+               <img src='img/apache-tinkerpop-logo.png' style="height:50px;margin-top:-15px" alt='Apache TinkerPop' /></a>
+         </div>
+         <div id="navbar-collapse-1" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+               <li><a href="downloads.html">Download</a></li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Documentation <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li class="dropdown-header">Latest: 3.5.0 (3-May-2021)</li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current">TinkerPop 3.5.0</a></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/upgrade">Upgrade Information</a></li>
+                     <li><a href="https://tinkerpop.apache.org/javadocs/current/core/">Core Javadoc API</a></li>
+                     <li><a href="https://tinkerpop.apache.org/javadocs/current/full/">Full Javadoc API</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li class="dropdown-header">Maintenance: 3.4.11 (3-May-2021)</li>
+                     <li><a href="https://tinkerpop.apache.org/docs/3.4.11/">TinkerPop 3.4.11</a></li>
+                     <li><a href="https://tinkerpop.apache.org/javadocs/3.4.11/core/">Core Javadoc API</a></li>
+                     <li><a href="https://tinkerpop.apache.org/javadocs/3.4.11/full/">Full Javadoc API</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/">Documentation Archives</a></li>
+                     <li><a href="https://tinkerpop.apache.org/javadocs/">Javadoc Archives</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/index.html#publications">Publications</a></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tutorials<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                     <li><a href="gremlin.html">Introduction to Gremlin</a></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/tutorials/getting-started/">Getting Started</a></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/tutorials/the-gremlin-console/">The Gremlin Console</a></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/recipes/">Gremlin Recipes</a></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/tutorials/gremlins-anatomy/">Gremlin's Anatomy</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="http://kelvinlawrence.net/book/Gremlin-Graph-Guide.html">Book: Practical Gremlin by Kelvin Lawrence</a></li>
+                     <li><a href="http://sql2gremlin.com/">SQL2Gremlin</a></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Community <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a href="https://groups.google.com/group/gremlin-users">User Mailing List</a></li>
+                     <li><a href="https://lists.apache.org/list.html?dev@tinkerpop.apache.org">Developer Mailing List</a></li>
+                     <li><a href="https://discord.gg/ndMpKZcBEE" target="_blank"><img src="img/discord_logo.png" class="nav-icon"/>Join us on Discord</a></li>
+                     <li><a href="https://issues.apache.org/jira/browse/TINKERPOP/">Issue Tracker</a></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/dev/developer/#_contributing">Contributing</a></li>
+                     <li><a href="providers.html">Providers</a></li>
+                     <li><a href="index.html#committers">Project Committers</a></li>
+                     <li><a href="policy.html">Policies</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="https://github.com/apache/tinkerpop/"><img src="img/gremlin-github.png" class="nav-icon"/>GitHub</a></li>
+                     <li><a href="https://twitter.com/apachetinkerpop" target="_blank"><img src="img/twitter.png" class="nav-icon"/>Twitter</a></li>
+                  </ul>
+               </li>
+               <li><a href="gremlint/">Gremlint</a></li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Apache Software Foundation <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a href="https://www.apache.org/">Apache Homepage</a></li>
+                     <li><a href="https://www.apache.org/licenses/">License</a></li>
+                     <li><a href="https://www.apache.org/events/current-event">Events</a></li>
+                     <li><a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+                     <li><a href="https://www.apache.org/foundation/thanks.html">Thanks</a></li>
+                     <li><a href="https://www.apache.org/security/">Security</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </nav>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one or more
+contributor license agreements.  See the NOTICE file distributed with
+this work for additional information regarding copyright ownership.
+The ASF licenses this file to You under the Apache License, Version 2.0
+(the "License"); you may not use this file except in compliance with
+the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<img src="img/tinkerpop-conference.png" class="img-responsive" />
+<div class="container">
+   <div class="hero-unit" style="padding:10px">
+      <b><font size="5" face="american typewriter">Apache TinkerPop&trade;</font></b>
+      <p><font size="5">Provider Listing and Graphic Usage Policies</font></p>
+   </div>
+</div>
+<div class="container-fluid">
+   <div class="container">
+      <a name="provider-listing-policy"></a>
+      <h3>Provider Listing Policy</h3>
+      <p>Graph system and language providers can have the project listed in two locations on the Apache TinkerPop homepage.
+         The first location is on the homepage <a href="index.html">index.html</a>. The second is on the homepage <a href="providers.html">providers.html</a>. The policies
+         for each are provided below. Note that the Apache Software Foundation's <a href="https://www.apache.org/foundation/marks/linking">linking policy</a> supercede those
+         stipulated by Apache TinkerPop. All things considered, if your project meets the requirements, please email Apache TinkerPop's
+         <a href="https://mail-archives.apache.org/mod_mbox/incubator-tinkerpop-dev/">developer mailing list</a> requesting that your project be added to a listing.
+      </p>
+      <h4>Index Listing Requirements</h4>
+      <ul>
+         <li>The project must be either a TinkerPop-enabled graph system, a Gremlin language variant/compiler, a Gremlin language driver, or a TinkerPop-enabled middleware tool.</li>
+         <li>The project must have a public URL that can be referenced by Apache TinkerPop.</li>
+         <li>The project must have at least one release.</li>
+         <li>The project must be actively developed/maintained to a current or previous "y" version of Apache TinkerPop (3.y.z).</li>
+         <li>The project must have <em>some</em> documentation and that documentation must make explicit its usage of Apache TinkerPop and its version compatibility requirements.</li>
+      </ul>
+      <h4>Provider Listing Requirements</h4>
+      <ul>
+         <li>The project must be either a TinkerPop-enabled graph system, a Gremlin language variant/compiler, or a TinkerPop-enabled tool.</li>
+         <li>The project must have a public URL that can be referenced by Apache TinkerPop.</li>
+         <li>The project must have a homepage that is not simply a software repository page.</li>
+         <li>The project must have a high-resolution logo that can be used by Apache TinkerPop.</li>
+         <li>The project must have at least one release.</li>
+         <li>The project must be actively developed/maintained to a current or previous "y" version of Apache TinkerPop (3.y.z).</li>
+         <li>The project must have <em>significant</em> documentation and that documentation must make explicit its usage of Apache TinkerPop and its version compatibility requirements.</li>
+      </ul>
+   </div>
+   <div class="container">
+      <a name="graphic-usage-policy"></a>
+      <h3>Graphic Usage Policy</h3>
+      <p>Apache TinkerPop has a plethora of graphics that the community can use. There are four categories of graphics. These categories and their respective policies are presented
+         below. If you are unsure of the category of a particular graphic, please ask on our <a href="https://mail-archives.apache.org/mod_mbox/incubator-tinkerpop-dev/">developer mailing</a>
+         list before using it. Finally, note that the Apache Software Foundation's <a href="https://www.apache.org/foundation/marks/">trademark policies</a> supercede those stipulated
+         by Apache TinkerPop.
+      </p>
+      <ul>
+         <li><strong>Character Graphics</strong>: A character graphic can be used <em>without permission</em> as long as its being used in an Apache TinkerPop related context and it is acknowledged that the graphic is a trademark of the Apache Software Foundation/Apache TinkerPop.</li>
+         <img src="img/policy/pipes-character.png" style="padding:10px;width:9%;"/> <img src="img/policy/rexster-character.png" style="padding:10px;width:9%;"/> <img src="img/policy/gremlin-character.png" style="padding:10px;width:9%;"/> <img src="img/policy/blueprints-character.png" style="padding:10px;width:9%;"/> <img src="img/policy/furnace-character.png" style="padding:10px;width:9%;"/> <img src="img/policy/frames-character.png" style="padding:10px;width:9%;"/>
+         <li><strong>Character Dress-Up Graphics</strong>: A character graphic can be manipulated ("dressed up") and used <em>without permission</em> as long as it's being used in an Apache TinkerPop related context and it is acknowledged that the graphic is a trademark of the Apache Software Foundation/Apache TinkerPop.</li>
+         <img src="img/policy/gremlin-gremopoly.png" style="padding:10px;width:10%;"/> <img src="img/policy/gremlin-gremreaper.png" style="padding:10px;width:14%;"/> <img src="img/policy/gremlin-chickenwing.png" style="padding:10px;width:10%;"/> <img src="img/policy/gremlin-no-more-mr-nice-guy.png" style="padding:10px;width:10%;"/> <img src="img/policy/gremlin-new-sheriff-in-town.png" style="padding:10px;width:12%;"/> <img src="img/policy/gremlin-gremstefani.png" style="padding:10px;width:10%;"/>
+         <li><strong>Explanatory Diagrams</strong>: Explanatory diagrams can be used <em>without permission</em> as long as they are being used in an Apache TinkerPop related context, it is acknowledged that they are trademarks of the Apache Software Foundation/Apache TinkerPop, and are being used for technical explanatory purposes.</li>
+         <img src="img/policy/olap-traversal.png" style="padding:10px;width:22%;"/> <img src="img/policy/cyclicpath-step.png" style="padding:10px;width:22%;"/> <img src="img/policy/flat-map-lambda.png" style="padding:10px;width:15%;"/> <img src="img/policy/adjacency-list.png" style="padding:10px;width:22%;"/>
+         <li><strong>Character Scene Graphics</strong>: Character scene graphics <u><em>require permission</em></u> before being used. Please ask for permission on the Apache TinkerPop <a href="https://mail-archives.apache.org/mod_mbox/incubator-tinkerpop-dev/">developer mailing list</a>.</li>
+         <img src="img/policy/tinkerpop-reading.png" style="padding:10px;width:20%;"/> <img src="img/policy/gremlintron.png" style="padding:10px;width:20%;"/> <img src="img/policy/business-gremlin.png" style="padding:10px;width:20%;"/> <img src="img/policy/tinkerpop3-splash.png" style="padding:10px;width:20%;"/>
+      </ul>
+   </div>
+</div>
+      <div id="footer">
+         <div class="container">
+            <p class="muted credit">Copyright © 2015-2021 The Apache Software Foundation.<br/>Apache TinkerPop, TinkerPop, Apache, Apache feather logo, and Apache TinkerPop project logo are either registered trademarks or trademarks of <a href="https://www.apache.org/">The Apache Software Foundation</a> in the United States and other countries.
+            </p>
+         </div>
+      </div>
+   </body>
+</html>

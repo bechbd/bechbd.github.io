@@ -1,0 +1,381 @@
+<!--
+Licensed to the Apache Software Foundation (ASF) under one or more
+contributor license agreements.  See the NOTICE file distributed with
+this work for additional information regarding copyright ownership.
+The ASF licenses this file to You under the Apache License, Version 2.0
+(the "License"); you may not use this file except in compliance with
+the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<!DOCTYPE html>
+<!--
+       \,,,/
+       (o o)
+  -oOOo-(3)-oOOo-
+-->
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Apache TinkerPop</title>
+      <meta name="description" content="Apache TinkerPop: A Graph Computing Framework">
+      <meta name="author" content="Apache TinkerPop">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+      <script src="js/bootstrap-3.3.5.min.js" type="text/javascript"></script>
+      <link href="css/carousel.css" rel="stylesheet" type="text/css">
+      <link href="css/prism.css" rel="stylesheet" type="text/css"/>
+      <link href="css/bootstrap-mods.css" rel="stylesheet" type="text/css"/>
+      <!-- Le fav and touch icons -->
+      <link rel="shortcut icon" href="img/favicon.ico">
+      <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+   </head>
+   <body>
+      <script src="js/prism.js"></script>     
+      <!---------------->
+      <!---------------->
+      <!---------------->
+      <!-- NAVIGATION -->
+      <!---------------->
+      <!---------------->
+      <!---------------->      
+      <nav class="navbar" role="navigation">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+               data-target="#navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://tinkerpop.apache.org">
+               <img src='img/apache-tinkerpop-logo.png' style="height:50px;margin-top:-15px" alt='Apache TinkerPop' /></a>
+         </div>
+         <div id="navbar-collapse-1" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+               <li><a href="downloads.html">Download</a></li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Documentation <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li class="dropdown-header">Latest: 3.5.0 (3-May-2021)</li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current">TinkerPop 3.5.0</a></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/upgrade">Upgrade Information</a></li>
+                     <li><a href="https://tinkerpop.apache.org/javadocs/current/core/">Core Javadoc API</a></li>
+                     <li><a href="https://tinkerpop.apache.org/javadocs/current/full/">Full Javadoc API</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li class="dropdown-header">Maintenance: 3.4.11 (3-May-2021)</li>
+                     <li><a href="https://tinkerpop.apache.org/docs/3.4.11/">TinkerPop 3.4.11</a></li>
+                     <li><a href="https://tinkerpop.apache.org/javadocs/3.4.11/core/">Core Javadoc API</a></li>
+                     <li><a href="https://tinkerpop.apache.org/javadocs/3.4.11/full/">Full Javadoc API</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/">Documentation Archives</a></li>
+                     <li><a href="https://tinkerpop.apache.org/javadocs/">Javadoc Archives</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/index.html#publications">Publications</a></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tutorials<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                     <li><a href="gremlin.html">Introduction to Gremlin</a></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/tutorials/getting-started/">Getting Started</a></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/tutorials/the-gremlin-console/">The Gremlin Console</a></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/recipes/">Gremlin Recipes</a></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/tutorials/gremlins-anatomy/">Gremlin's Anatomy</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="http://kelvinlawrence.net/book/Gremlin-Graph-Guide.html">Book: Practical Gremlin by Kelvin Lawrence</a></li>
+                     <li><a href="http://sql2gremlin.com/">SQL2Gremlin</a></li>
+                  </ul>
+               </li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Community <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a href="https://groups.google.com/group/gremlin-users">User Mailing List</a></li>
+                     <li><a href="https://lists.apache.org/list.html?dev@tinkerpop.apache.org">Developer Mailing List</a></li>
+                     <li><a href="https://discord.gg/ndMpKZcBEE" target="_blank"><img src="img/discord_logo.png" class="nav-icon"/>Join us on Discord</a></li>
+                     <li><a href="https://issues.apache.org/jira/browse/TINKERPOP/">Issue Tracker</a></li>
+                     <li><a href="https://tinkerpop.apache.org/docs/current/dev/developer/#_contributing">Contributing</a></li>
+                     <li><a href="providers.html">Providers</a></li>
+                     <li><a href="index.html#committers">Project Committers</a></li>
+                     <li><a href="policy.html">Policies</a></li>
+                     <li role="separator" class="divider"></li>
+                     <li><a href="https://github.com/apache/tinkerpop/"><img src="img/gremlin-github.png" class="nav-icon"/>GitHub</a></li>
+                     <li><a href="https://twitter.com/apachetinkerpop" target="_blank"><img src="img/twitter.png" class="nav-icon"/>Twitter</a></li>
+                  </ul>
+               </li>
+               <li><a href="gremlint/">Gremlint</a></li>
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Apache Software Foundation <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                     <li><a href="https://www.apache.org/">Apache Homepage</a></li>
+                     <li><a href="https://www.apache.org/licenses/">License</a></li>
+                     <li><a href="https://www.apache.org/events/current-event">Events</a></li>
+                     <li><a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+                     <li><a href="https://www.apache.org/foundation/thanks.html">Thanks</a></li>
+                     <li><a href="https://www.apache.org/security/">Security</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </nav>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one or more
+contributor license agreements.  See the NOTICE file distributed with
+this work for additional information regarding copyright ownership.
+The ASF licenses this file to You under the Apache License, Version 2.0
+(the "License"); you may not use this file except in compliance with
+the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<div class="container newfont">
+   <div class="hero-unit">
+      <div class="row">
+      <div class="col-md-6">
+      <img src="img/tinkerpop-splash.png" width="420" class="img-responsive"/>
+      </div>
+
+      <div class="col-md-6">
+         <p style="padding-top:40px;"><b><font size="9" face="american typewriter">Apache TinkerPop&trade;</font></b></p>
+         <br />
+      <p>The most powerful open source graph framework</p>
+      <p></p>
+      <p class="text-center" style="padding-top: 20px;"><a class="btn btn-primary" href="downloads.html" role="button">Download Server/Client</a></p></p>
+      </div>
+      </div>
+
+      <div class="row">
+      <div class="col-md-12">
+         <p>Apache TinkerPop™ is a graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP).  TinkerPop provides a 
+            a vendor agnostic graph computing framework and query language distributed under the commercial friendly <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache2 license</a>.</p>
+      </div>
+      </div>
+      <div class="row" style="padding-top:10px;">
+         <div class="panel panel-default col-md-4"  style="background-color: transparent;">
+            <div class="panel-heading text-center panel-relative light-panel-header"><h4>Purpose Built For Graphs</h4></div>
+            <div class="panel-body light-panel" >
+               <p>
+                  Designed from the ground up to support both transactional and analytical workloads 
+                  TinkerPop is the most powerful open source graph framework available. 
+               </p>
+               <p class="text-center">
+                  <a class="btn" href="benefits.html" role="button">Learn More</a>
+               </p>
+            </div>
+          </div>
+         
+          <div class="panel panel-default col-md-4" style="background-color: transparent;">
+            <div class="panel-heading text-center panel-relative light-panel-header"><h4>Use Cases</h4></div>
+            <div class="panel-body light-panel">
+               <p>
+               TinkerPop is optimized for common graph use cases such as Social Networks
+                  , Knowledge Graphs
+                  , Fraud Detection
+                  , Recommendation Engines
+                  , and many more...
+               </p>
+               <p class="text-center">
+                  <a class="btn" href="usecases.html" role="button">Learn More</a>
+               </p>
+            </div>
+          </div>
+   
+         <div class="panel panel-default col-md-4"   style="background-color: transparent;">
+            <div class="panel-heading text-center panel-relative light-panel-header"><h4>Gremlin Query Language</h4></div>
+            <div class="panel-body light-panel">
+               <p>TinkerPop Gremlin is the most complete open source graph query language designed 
+                  and optimized for high performance graph traversals.
+            </p>
+            <p class="text-center">
+               <a class="btn" href="gremlin.html" role="button">Learn More</a>
+            </p>
+            </div>
+          </div>
+      </div>
+      <div class="row" style="padding-top:10px;">
+         <div class="panel panel-default col-md-4"  style="background-color: transparent;">
+            <div class="panel-heading text-center panel-relative light-panel-header"><h4>Open Source</h4></div>
+            <div class="panel-body light-panel" >
+               <p>
+                  TinkerPop is an open source project that provides a large number of compatible set of tools and drivers 
+                  and <a href="https://tinkerpop.apache.org/docs/current/dev/developer#_contributing">welcomes contributions.
+               </p><p class="text-center">
+                  <a class="btn" href="https://github.com/apache/tinkerpop" role="button" target="=_blank">Learn More</a>
+               </p>
+            </div>
+          </div>
+         
+          <div class="panel panel-default col-md-4" style="background-color: transparent;">
+            <div class="panel-heading text-center panel-relative light-panel-header"><h4>Community</h4></div>
+            <div class="panel-body light-panel">
+               <p>
+               TinkerPop is a community driven project with a vibrant set of contirbutors from around the world. 
+               </p><p class="text-center">
+               <a class="btn" href="community.html" role="button">Learn More</a>
+            </p>
+            </div>
+          </div>
+   
+         <div class="panel panel-default col-md-4"   style="background-color: transparent;">
+            <div class="panel-heading text-center panel-relative light-panel-header"><h4>Providers</h4></div>
+            <div class="panel-body light-panel">
+<p>TinkerPop is the most widely supported open source graph framework with 27+ providers including those from 
+   Amazon, Microsoft, Neo4j, Alibaba, ...</p><p class="text-center">
+      <a class="btn" href="providers.html" role="button">Learn More</a>
+   </p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+      <div class="panel panel-default col-md-4">
+         <div class="panel-heading text-center panel-relative"><h4>Downloads</h4></div>
+         <div class="panel-body text-center">
+            <p>
+            Latest Release: <br />
+            TinkerPop 3.5.0<br />(Released: 3-May-2021)
+            </p>
+         <a class="btn btn-primary" href="downloads.html" role="button">Download</a></p>
+         </div>
+       </div>
+      
+       <div class="panel panel-default col-md-4">
+         <div class="panel-heading text-center panel-relative"><h4>Getting Started</h4></div>
+         <div class="panel-body">   
+            <p>
+               1) Start with <a href="https://tinkerpop.apache.org/docs/current/">Tutorials</a><br />
+               2) Read the <a href="https://tinkerpop.apache.org/docs/current/">TinkerPop Documentation</a><br />
+               3) Learn Gremlin with the free <a href="http://www.kelvinlawrence.net/book/PracticalGremlin.html">Practical Gremlin</a> book<br />
+               4) Explore common query patterns in <a href="https://tinkerpop.apache.org/docs/current/">Gremlin Recipes</a>
+            </p>
+         </div>
+       </div>
+
+      <div class="panel panel-default col-md-4">
+         <div class="panel-heading text-center panel-relative"><h4>Contribute</h4></div>
+         <div class="panel-body">
+            <p>
+               <a href="https://discord.gg/ndMpKZcBEE" target="_blank"><img src="img/join_discord.png" class="img-responsive rounded mx-auto d-block" style="padding:10px; width: 375px"/></a>
+                  <a href="https://twitter.com/apachetinkerpop" target="_blank">
+                     - <img src="img/twitter.png" alt="twitter" style="width:24px; height:24px;"> Follow us on Twitter</a> <br />
+                   - Join the <a href="https://groups.google.com/group/gremlin-users">Gremlin-Users</a> mailing list.<br />
+               TinkerPop is an open source project that <a href="https://tinkerpop.apache.org/docs/current/dev/developer#_contributing">welcomes contributions</a></li>
+            </ul>
+            </p>
+         </div>
+       </div>
+   </div>
+
+   <div class="row" style="padding-top: 10px;">
+      <h3>Apache TinkerPop Contributors</h3>
+      <p>
+         <img src="img/tinkerpop-logo-small.png" style="float:right; margin-top: -40px;" />TinkerPop is a community driven project that seeks contributors dedicated to the art of graph
+         computing. TinkerPop contributors bring solid theoretical,
+         development, testing, documentation, etc. skills to the group. These individuals contribute to TinkerPop beyond the
+         ever-changing requirements of their day-to-day jobs and maintain
+         responsibility for their contributions through time.
+      </p>
+
+   </div>
+         <div class="row">
+            <div class="col-md-12">
+               <div class="panel with-nav-tabs panel-default">
+                  <div>
+                     <ul class="nav nav-tabs">
+                        <li class="active"><a href="#activecontributors" data-toggle="tab">Active Contributors</a></li>
+                        <li><a href="#inactivecontributors" data-toggle="tab">Inactive Contributors</a></li>
+                     </ul>
+                  </div>
+                  <div class="panel-body panel-overflow">
+                     <div class="tab-content">
+                        <div class="tab-pane fade in active panel-overflow" id="activecontributors"><ul>
+                           <li><a href="https://markorodriguez.com">Marko A. Rodriguez</a> (2009 - Founder): Gremlin language, Gremlin machine,
+                              documentation.</li>
+                           <li><a href="https://www.linkedin.com/in/joshuashinavier/">Joshua Shinavier</a> (2009 - Founder): Graph data models,
+                              semantics, and interoperability</li>
+                           <li><a href="https://stephen.genoprime.com/">Stephen Mallette</a> (2011 - PMC Chair): Gremlin Console/Server/Driver,
+                              Language Variants and general core development.</li>
+                           <li><a href="https://github.com/jorgebay">Jorge Bay</a> (2017 - PMC): GraphBinary serialization, JavaScript and .NET
+                              libraries, mailing list support.</li>
+                           <li><a href="https://github.com/FlorianHockmann/">Florian Hockmann</a> (2017 - PMC): .NET libraries, mailing list
+                              support.</li>
+                           <li><a href="https://www.kelvinlawrence.net/">Kelvin Lawrence</a> (2017 - Committer): Documentation and mailing list
+                              support.</li>
+                           <li><a href="https://www.linkedin.com/in/divijvaidya/">Divij Vaidya</a> (2019 - Committer): Gremlin server-client
+                              interaction.</li>
+                           <li><a href="https://oyvindsabo.com/">Øyvind Sæbø</a> (2021 - Committer): Gremlint query formatter.</li>
+                        </ul></div>
+                        <div class="tab-pane fade panel-overflow" id="inactivecontributors">
+                           <ul>
+                              <li><a href="https://ketrinadrawsalot.tumblr.com">Ketrina Yim</a> (2009 - Committer): Illustrator, creator of Gremlin
+                                 and his merry band of robots.</li>
+                              <li><a href="https://twitter.com/espeed">James Thornton</a> (2013 - PMC): Promotions, evangelism.</li>
+                              <li><a href="http://gremlin.guru">Daniel Kuppitz</a> (2014 - PMC): Gremlin language design, benchmarking, testing,
+                                 documentation, mailing list support.</li>
+                              <li><a href="https://www.linkedin.com/in/hzbarcea">Hadrian Zbarcea</a> (2015 - PMC): Project mentor, provider liason.
+                              </li>
+                              <li><a href="https://github.com/Humbedooh">Daniel Gruno</a> (2015 - PMC): Project mentor, infrastructure liason.</li>
+                              <li><a href="https://github.com/mhfrantz">Matt Frantz</a> (2015 - Committer): Gremlin language design, ts-tinkerpop.
+                              </li>
+                              <li><a href="https://github.com/pluradj">Jason Plurad</a> (2015 - PMC): Gremlin Console/Server, mailing list support.
+                              </li>
+                              <li><a href="https://www.linkedin.com/in/dylan-millikin-32567934">Dylan Millikin</a> (2015 - PMC): Gremlin
+                                 Server/Driver, gremlin-php, GremlinBin, mailing list support.</li>
+                              <li><a href="https://github.com/twilmes">Ted Wilmes</a> (2015 - PMC): Promotions, mailing list support, benchmarking,
+                                 sql-gremlin.</li>
+                              <li><a href="https://github.com/pietermartin">Pieter Martin</a> (2016 - Committer): Gremlin language, Sqlg.</li>
+                              <li><a href="https://github.com/jbmusso">Jean-Baptiste Musso</a> (2016 - Committer): Gremlin Server testing, Gremlin
+                                 Driver (Node.js/JavaScript), mailing list support.</li>
+                              <li><a href="https://www.michaelpollmeier.com/">Michael Pollmeier</a> (2016 - Committer): Gremlin language,
+                                 Gremlin-Scala.</li>
+                              <li><a href="https://github.com/davebshow">David Brown</a> (2016 - Committer): Python libraries, Gremlin Server
+                                 testing.</li>
+                              <li><a href="https://github.com/robertdale">Robert Dale</a> (2016 - PMC): Gremlin Console/Server, documentation,
+                                 mailing list support.</li>
+                              <li><a href="https://harshthakkar.in/">Harsh Thakkar</a> (2018 - Committer): Gremlin-SPARQL module.</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+   </div>
+</div>
+      <div id="footer">
+         <div class="container">
+            <p class="muted credit">Copyright © 2015-2021 The Apache Software Foundation.<br/>Apache TinkerPop, TinkerPop, Apache, Apache feather logo, and Apache TinkerPop project logo are either registered trademarks or trademarks of <a href="https://www.apache.org/">The Apache Software Foundation</a> in the United States and other countries.
+            </p>
+         </div>
+      </div>
+   </body>
+</html>
